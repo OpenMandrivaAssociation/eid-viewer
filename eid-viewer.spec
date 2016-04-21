@@ -9,6 +9,8 @@ License:        LGPLv3
 Group:          Networking/Other
 URL:            http://github.com/Fedict/eid-mw2
 Source0:        https://dist.eid.belgium.be/continuous/sources/%{name}-%{version}-v%{version}.src.tar.gz
+Requires:	java
+Requires:	eid-mw
 BuildRequires:  pkgconfig(libpcsclite)
 BuildRequires:	pkgconfig(QtCore)
 BuildRequires:	pkgconfig(gtk+-2.0)
