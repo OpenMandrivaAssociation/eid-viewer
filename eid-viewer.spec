@@ -2,7 +2,7 @@
 %define debug_package %{nil}
 
 Name:           eid-viewer
-Version:        4.1.16
+Version:        4.1.20
 Release:        1
 Summary:        The eID Middleware offers components for using the Belgian eID
 License:        LGPLv3
