@@ -21,7 +21,7 @@ Software that support electronic person identification for Belgian eID.
 
 %prep
 %setup -qn %{name}-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure2_5x \
