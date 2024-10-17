@@ -7,7 +7,7 @@ Release:        1
 Summary:        The eID Middleware offers components for using the Belgian eID
 License:        LGPLv3
 Group:          Networking/Other
-URL:            http://github.com/Fedict/eid-mw2
+URL:            https://github.com/Fedict/eid-mw2
 Source0:        https://dist.eid.belgium.be/continuous/sources/%{name}-%{version}-v%{version}.src.tar.gz
 Requires:	java
 Requires:	eid-mw
