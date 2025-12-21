@@ -11,6 +11,11 @@ URL:            https://github.com/Fedict/eid-mw2
 Source0:        https://dist.eid.belgium.be/continuous/sources/%{name}-%{version}-v%{version}.src.tar.gz
 Requires:	java
 Requires:	eid-mw
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(libpcsclite)
 BuildRequires:	pkgconfig(QtCore)
 BuildRequires:	pkgconfig(gtk+-2.0)
